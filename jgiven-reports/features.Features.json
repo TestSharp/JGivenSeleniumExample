@@ -1,0 +1,65 @@
+{
+  "className": "features.Features",
+  "name": "Features",
+  "scenarios": [
+    {
+      "className": "features.Features",
+      "testMethodName": "goto_testsharp_site",
+      "description": "navigate to the TestSharp site",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I visit site",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I visit site"
+                },
+                {
+                  "value": "http://testsharp.net",
+                  "argumentInfo": {
+                    "argumentName": "url",
+                    "formattedValue": "\"http://testsharp.net\""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 663039886
+            },
+            {
+              "name": "I check the logo",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I check the logo"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 36127503
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 709651537
+        }
+      ],
+      "durationInNanos": 709651537,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}

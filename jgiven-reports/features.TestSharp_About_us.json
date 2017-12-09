@@ -1,0 +1,65 @@
+{
+  "className": "features.Google_Features",
+  "name": "Google _ Features",
+  "scenarios": [
+    {
+      "className": "features.TestSharp_About_us",
+      "testMethodName": "goto_testsharp_site",
+      "description": "navigate to the TestSharp site",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "I visit site",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I visit site"
+                },
+                {
+                  "value": "http://testsharp.net",
+                  "argumentInfo": {
+                    "argumentName": "url",
+                    "formattedValue": "\"http://testsharp.net\""
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 951718892
+            },
+            {
+              "name": "I check the logo",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "I check the logo"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 35105425
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 996706320
+        }
+      ],
+      "durationInNanos": 996706320,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
